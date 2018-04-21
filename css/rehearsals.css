@@ -1,6 +1,19 @@
+body{
+    background-image: url("../images/brick_background.jpg");
+
+
+}
+
+
 .soon2{
 
-    font-size:100px;
-    text-align:center;
-    margin-top:200px;
+font-size:100px;
+text-align:center;
+margin-top:200px;
+color:white;
+}
+.nav-link{
+
+    color:white !important;
+    
     }

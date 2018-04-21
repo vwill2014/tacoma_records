@@ -1,6 +1,30 @@
+body{
+    background-image: url("../images/brick_background.jpg");
+
+
+
+    position: relative;
+    /* opacity:0.60; */
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    /* fixed = parallax */
+    /* scroll = normal */
+    background-attachment: fixed;
+
+}
+
+
 .soon{
 
 font-size:100px;
 text-align:center;
 margin-top:200px;
+color:white;
 }
+
+.nav-link{
+
+    color:white !important;
+    
+    }

@@ -6,46 +6,32 @@ body{
     font-family:"Lato", sans-serf;
     font-weight: 400;
     line-height: 1.8em;
-    color: rgba(15, 12, 12, 0.4);
+    color: white;
     background-color:rgb(173, 201, 247,.5);
+    background-image: url("../images/man.jpg");
+
+    position: relative;
+/* opacity:0.60; */
+background-position:center;
+background-size:cover;
+background-repeat:no-repeat;
+/* fixed = parallax */
+/* scroll = normal */
+background-attachment: fixed;
 }
 
+#our{
 
-/* 
-.pic_Ceo{
-    margin-top:300px;
-    position: relative;
-    /* opacity:0.60; */
-    /* background-position:center; */
-    /* background-size:cover; */
-    /* background-repeat:no-repeat; */
-    /* fixed = parallax */
-    /* scroll = normal */
-    /* background-attachment: fixed; */
-    
-    /* } */ 
-    
-    /* .pic_Ceo{
-
-       
-         
-        
-        
-        } */
+margin-top:10%;
+width:40%;
+padding-right:250px;
+padding-left:80px;
 
 
+}
 
-            
-/* .studio{
+/* logo in navbar */
 
- background-image: url("..images/studio_cousin_HR.jpg");
-
-     } */
-
-    .studio{
-margin-top:60px;
-
-    }
      .newLogo{
 
         width: 100px;
@@ -54,30 +40,42 @@ margin-top:60px;
         margin-left:50%;
         }
 
+
+/* tape image  */
     .icon2{
         display: block;
         margin-left: auto;
         margin-right: auto;
         margin-bottom:10px;
-    width:30px;
-    height:30px;
+         width:30px;
+        height:30px;
             
      }
 
-.section{
+
+/* .section{
 padding-top:20px;
 padding-right:80px;
 padding-left:80px;
 
-}
+} */
 
 .family{
 
-    margin-top:20px;
+    margin-top:10px;
 
 }
 .label{
 
     text-align: center;
+    
+    padding-left:100px;
+    padding-right:100px;
 
 }
+
+.nav-link{
+
+    color:white !important;
+    
+    }
