@@ -1,54 +1,47 @@
 body{
- 
-    height:100%;
-    margin:0;
-    font-size:16px;
-    font-family:"Lato", sans-serf;
-    font-weight: 400;
-    line-height: 1.8em;
-    color: white;
-    background-color:rgb(173, 201, 247,.5);
-    background-image: url("../images/man.jpg");
-
-    position: relative;
-/* opacity:0.60; */
-background-position:center;
-background-size:cover;
-background-repeat:no-repeat;
-/* fixed = parallax */
-/* scroll = normal */
-background-attachment: fixed;
+    background-image: url("../images/body-bg.gif");
+    color:white;
 }
 
 #our{
 
-margin-top:10%;
-width:40%;
-padding-right:250px;
-padding-left:80px;
-
-
+margin-top:15%;
+width:100%;
+height:100%;
+padding-right:100px; 
+ padding-left:80px;
 }
+
+#our2{
+
+    margin-top:15%;
+    
+    width:100%;
+    height:100%;
+    padding-right:150px; 
+    /* padding-left:100px; */
+    }
 
 /* logo in navbar */
 
      .newLogo{
 
-        width: 100px;
-        height:40px;
-        /* padding-left:30px; */
-        margin-left:50%;
+            width: 200px;
+            height:80px;
+            /* padding-left:30px; */
+            margin-left:50%;
+            
         }
 
-
 /* tape image  */
-    .icon2{
-        display: block;
+    .picMan{
+        /* display: block;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom:10px;
-         width:30px;
-        height:30px;
+        margin-bottom:10px; */
+        width:100%;
+        margin-right:10%;
+        margin-top:20%;
             
      }
 
@@ -60,7 +53,7 @@ padding-left:80px;
 
 } */
 
-.family{
+/* .family{
 
     margin-top:10px;
 
@@ -72,10 +65,44 @@ padding-left:80px;
     padding-left:100px;
     padding-right:100px;
 
-}
+} */
 
 .nav-link{
 
     color:white !important;
     
     }
+
+
+
+
+    .footer{
+
+        position: fixed;
+           left: 0;
+           bottom: 0;
+           width: 100%;
+           background-color: rgb(12, 12, 12);
+           /* color: white; */
+           text-align: center;
+           z-index: 99;
+       }
+
+       .icon{
+
+        width:30px;
+        height:30px;
+        
+        }
+
+        .tc{
+    
+            margin-left:10%;
+        }
+
+        .logo4{
+
+            width:15px;
+            height:15px;
+            
+            }

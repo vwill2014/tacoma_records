@@ -1,19 +1,40 @@
 body{
-    background-image: url("../images/brick_background.jpg");
+    background-image: url("../images/body-bg.gif");
 
 
 
-    position: relative;
-    /* opacity:0.60; */
-    background-position:center;
-    background-size:cover;
-    background-repeat:no-repeat;
-    /* fixed = parallax */
-    /* scroll = normal */
-    background-attachment: fixed;
+   
+
+}
+.neon3{
+    font-family: 'Quicksand', sans-serif;
+    /* transform:translate(-50%,-50%); */
+    color:#fff;
+    /* text-shadow:0 0 20px #ff005b; */
+
+    text-shadow:0 0 20px #2d76ed;
+    text-align:center;
+    /* position:absolute; */
+    margin-top:150px;
+    font-size:70px;  
+}
+
+
+#commercialRow{
+    
+    margin-left:15%;
 
 }
 
+.cPic1{
+    background-color:white;
+    width:40%;
+    /* height:35%; */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    padding:5px;
+    margin-bottom:20px;
+
+}
 
 .soon{
 
@@ -28,3 +49,15 @@ color:white;
     color:white !important;
     
     }
+
+    .footer{
+
+        position: fixed;
+           left: 0;
+           bottom: 0;
+           width: 100%;
+           background-color: rgb(12, 12, 12);
+           /* color: white; */
+           text-align: center;
+           z-index: 99;
+       }

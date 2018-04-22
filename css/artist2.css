@@ -1,63 +1,33 @@
 body{
-background-image: url("../images/brick_background.jpg");
-/* height:100%;
-margin:0;
-font-size:16px;
-font-family:"Lato", sans-serf;
-font-weight: 400;
-line-height: 1.8em; */
+background-image: url("../images/body-bg.gif");
 color:white;
 }
 
 
 .logo3{
 
-width: 100px;
-height:40px;
-/* padding-left:30px; */
-margin-left:50%;
-}
+    width: 200px;
+    height:80px;
+    /* padding-left:30px; */
+    margin-left:50%;
+    }
+
 #artistRow{
 
-margin-top:50px;
-
-
-}
-h1{
-
-margin-top:50px;
-text-align: center;
-}
-
-h3{
-    margin-top:5px;
-    text-align: center;
+margin-top:10%;
+margin-left:5%;
 
 }
 
-/* #main{
-margin:0 auto;
-}
-
-#feature{
-
-    margin:0 auto;
-} */
-
-
-.artistPic1,.artistPic2,.artistPic3,.artistPic4,.artistPic5,.artistPic6{
+.artistPic1{
     background-color:white;
-    float:left;
-    width:50%;
+    width:15%;
     /* height:35%; */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
-    /* background-position:center;  */
-    position: relative;
-    /* background-size:cover;
-    background-repeat:no-repeat;    */
-    display:block;
+    padding:5px;
+    margin-bottom:10px;
+   
 }
-
 
 .neon{
     font-family: 'Quicksand', sans-serif;
@@ -79,88 +49,6 @@ margin:0 auto;
     
     }
     
- .artistPic3{
-
-  margin-right:10%; 
-
-} 
-
-.artistPic6{
- 
-margin-top:5%;
- 
-} 
-
-.artistPic7{
-    
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
-    position: relative;
-    padding:5px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width:100%;
-    background-color:white;
-  
-
-}
-
-
-.artistPic8, .artistPic9{
-
-    background-color:white;
-    float:left;
-    width:50%;
-    /* height:35%; */
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
-    /* background-position:center;  */
-    position: relative;
-    /* background-size:cover;
-    background-repeat:no-repeat;    */
-    display:block;
-    padding:5px;
-
-
-}
-
-
-
-.artistPic1,.artistPic2{
-
-    margin-bottom:30px;
-    padding:5px;
-    
-    }
-.artistPic3,.artistPic4{
-
-        margin-bottom:30px;
-        padding:5px;
-    
-        }
-    
-.artistPic5,.artistPic6{
-
-         margin-bottom:10px;
-         padding:5px;
-        
-            }
-
-
-
-    .ptext{
-
-        position: absolute;
-        top:50%;
-        width:100%;
-        font-size:27px;
-        letter-spacing:8px;
-        text-transform: uppercase;
-        text-align: center;
-        color: #ddd;
-        text-shadow: 2px 2px 4px #000000;
-    
-    }
-
 
 
     .clearfix:after {
